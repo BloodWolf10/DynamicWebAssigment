@@ -1,0 +1,33 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+    height:90%;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #head{
+    text-align: center;
+    color:green;
+  }
+
+  #searchInput
+  {
+    margin-left: 1%;;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
